@@ -1,5 +1,10 @@
 num = input('Enter a number (decimal or integer): ')
 # type your code here
+newtext = num.replace("-", "").replace(".", "").lstrip("0")
+
+sf = len(newtext)
+
+
 
 
 
